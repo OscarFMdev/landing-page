@@ -4,7 +4,7 @@
     --secondaryTextColor: #E5E7EB;
     --buttonColor: #3882F6;
     --infoAndQuote: #1F2937;
-
+    --quoteBackground: #E5E7EB;
 }
 
 img {
@@ -25,7 +25,7 @@ nav a {
 
 .hero {
     background-color: var(--mainColor);
-    width: 50%;
+    /* width: 50%; */
 }
 
 .nav-container {
@@ -93,5 +93,41 @@ button {
 
 .information {
     color: var(--infoAndQuote);
-    font-size: 36px;
+    font-size: 35px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.images div {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+div p {
+    text-align: center;
+}
+
+div .ruby {
+    width: 100px;
+    height: auto;
+    align-self: center;
+}
+
+#info-section {
+    background-color: white;
+}
+
+body {
+    background-color: black;
 }
