@@ -1,5 +1,5 @@
-# landin-page
-
+# Landing-page
+This is a project from The Odin Project https://www.theodinproject.com/ 
 
 ## Special thanks
 - Image from Tomasz Filipek: https://www.pexels.com/es-es/foto/foto-con-poca-luz-del-controlador-nes-1637436/
@@ -7,4 +7,3 @@
 - Image from RealToughCandy.com: https://www.pexels.com/es-es/foto/hombre-amor-gente-mujer-11035380/
 - Image from RealToughCandy.com: https://www.pexels.com/es-es/foto/amor-gente-mujer-corazon-11035471/
 - Ruby image from https://commons.wikimedia.org/wiki/File:Ruby_logo.svg
-- 
