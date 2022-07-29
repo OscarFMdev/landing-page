@@ -39,7 +39,9 @@ nav a {
 
 .container {
     display: flex;
+    width: 70%px;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -58,20 +60,22 @@ nav a {
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin-bottom: 60px;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 
 .header img {
-    width: 400px;
+    width: 360px;
     height: auto;
     position: relative;
+    margin-right: 20px;
     
 }
 
 .header-text {
     text-align: center;
+    margin-left: 20px;
 }
 
 
@@ -130,4 +134,21 @@ div .ruby {
 
 body {
     background-color: black;
+}
+
+#quote-section {
+    background-color: var(--quoteBackground);
+    width: 867.6px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    text-align: center;
+    font-style:italic;
+    font-weight: lighter;
 }
