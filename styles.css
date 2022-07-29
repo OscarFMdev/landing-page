@@ -1,0 +1,97 @@
+:root {
+    --mainColor: #1F2937;
+    --mainTextColor: #F9FAF8;
+    --secondaryTextColor: #E5E7EB;
+    --buttonColor: #3882F6;
+    --infoAndQuote: #1F2937;
+
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a {
+    color: var(--secondaryTextColor);
+    text-decoration: none;
+}
+
+.hero {
+    background-color: var(--mainColor);
+    width: 50%;
+}
+
+.nav-container {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    right: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--mainTextColor);
+}
+
+.header-text p {
+    color: var(--secondaryTextColor);
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+
+.header img {
+    width: 400px;
+    height: auto;
+    position: relative;
+    
+}
+
+.header-text {
+    text-align: center;
+}
+
+
+button {
+    text-decoration: none;
+    border: none;
+    background-color: var(--buttonColor);
+    color: var(--mainTextColor);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.header-text p {
+    text-align:justify;
+    width: 350px;
+    margin-left: 30px;
+}
+
+.information {
+    color: var(--infoAndQuote);
+    font-size: 36px;
+}
